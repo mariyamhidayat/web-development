@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+nav{
+    font-size: 20px;
+    font-style: bold;
+    height: 90px;
+    line-height: 25px;
+    position: fixed;
+    
+    width: 100%;
+    background-image: linear-gradient(blue,white);
+    
+    /*background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%2Fimages%3Fk%3Dias&psig=AOvVaw1RZ-roOlaRya9mxrxTDO-t&ust=1706944907405000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwiOjpC4j4yEAxWfUaQEHfLiAoAQr4kDegUIARCrAQ.jpg);*/
+
+}
+nav .logo p{
+    font-size:26px;
+    font-style: italic;
+    margin-left: 20px;
+    margin-top: 30px;
+    transition: all 0.5sec ease 0s;
+    color:darkslateblue;
+    text-transform: uppercase;
+    font-weight: bold;
+   
+
+}
+nav .logo p:hover{
+    color:white;
+    transition: all 0.5s ease 0s;
+}
+nav ul{
+    float:right
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:white;
+    padding: 0px 25px;
+
+    
+}
+nav li a:hover{
+    color:blue;
+    transition: all 0.5s ease 0s;
+
+}
+.image {
+    width:100%;
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/1200861/pexels-photo-1200861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    background-size:cover;
+    
+  
+}
+body h1{
+    font-size: 60px;
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+    color:white;
+    width: 100%;
+    top: 50%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+body h1:hover{
+    color:blue;
+    transition: all 0.5s ease 0s;
+
+}
